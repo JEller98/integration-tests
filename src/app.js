@@ -1,6 +1,7 @@
 import express from "express";
 
 let num = 10;
+console.log(`${num} is a good number.`)
 
 const app = express();
 
