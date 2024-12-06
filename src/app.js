@@ -1,5 +1,7 @@
 import express from "express";
 
+let num = 10;
+
 const app = express();
 
 app.get("/api/v1/products", (req, res) => {
